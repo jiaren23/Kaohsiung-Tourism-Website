@@ -1,0 +1,43 @@
+*{
+    // border:solid 1px;
+    list-style: none;
+}
+
+.banner{
+    width: 100%;
+    background-color: #eee;
+    margin: auto;
+    text-align: center;
+    background-image:url("../assets/Hero.png");
+    background-repeat: no-repeat;
+    background-size: 1024px auto;
+    background-position: top;
+    height: 380px;
+
+    #selectRegion{
+        width: 452px;
+        height: 48px;
+    }
+    
+}
+
+
+.box-group{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    .box{
+        width: 300px;
+        height: 400px;
+        margin: auto;
+        .box-banner{
+            height: 200px;
+            background-size: cover;
+        }
+
+    }
+
+}

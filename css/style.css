@@ -1,0 +1,42 @@
+* {
+  list-style: none;
+}
+
+.banner {
+  width: 100%;
+  background-color: #eee;
+  margin: auto;
+  text-align: center;
+  background-image: url("../assets/Hero.png");
+  background-repeat: no-repeat;
+  background-size: 1024px auto;
+  background-position: top;
+  height: 380px;
+}
+
+.banner #selectRegion {
+  width: 452px;
+  height: 48px;
+}
+
+.box-group {
+  margin: auto;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.box-group .box {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+}
+
+.box-group .box .box-banner {
+  height: 200px;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
